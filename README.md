@@ -6,9 +6,12 @@
 [张伟楠博士PPT](https://github.com/wzhe06/Ad-papers/blob/master/Bidding%20Strategy/Research%20Frontier%20of%20Real-Time%20Bidding%20based%20Display%20Advertising.pdf),2015
 * bidding model指的是输入是一些信息，包括user，哪个ad，page信息等等，输出是这次出价，这个模型要优化广告主的关键指标（KPI）
 
-
-
-
+### Bid Landscape Forecasting in Online Ad Exchange Marketplace，KDD，2011
+* bid landscape forecasting，竞价愿景预测，指的是预测横坐标为bid，纵坐标为win次数的直方图，假如有了这张图，可以很容易的算出某个bid获胜的概率以及想要获胜的期望bid是多少。
+* 想要直接更具历史预测这个分布是很难的，因为过去的事情对于未来没有指导意义，当campaign的分布变化的时候，就很难预测了。
+* 获胜的价格的分布取对数之后很像一个正态分布,那也就是说，估计bid的landscape其实就是估计均值和方差就完事了。
+* 文章中并不直接对广告计划进行预测，而是预测每一个定向属性值的组合向量的bid landscape。每一个唯一的定向属性值的组合向量称作一个样例(sample)。例如，一个广告计划有三个定向维度，媒体(P1,P2)，用户性别(male, female)，用户年龄(18-23,23-30)，那么<P1,male,18-23>就构成了一个样例。
+* 文章中提出了一种"Bid Star Tree"的方法。具体做法是，对每一个特征加入一个新的值"*"，这个值用语匹配所有数据，如果一个维度的某个值下的数据比较少，直接聚集到"*"这个值上。这样就可以解决数据稀疏性的问题。
 
 ## CTR/CVR Estimation
 ### Estimating Conversion Rate in Display Advertising from Past Performance Data， KDD，2012
