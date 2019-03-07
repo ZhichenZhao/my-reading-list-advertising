@@ -26,8 +26,11 @@
 ### [How does Facebook Bidding Work?](https://bn.co/how-does-facebook-ocpm-bidding-work/)
 * oCPM意为按照展示收钱，但是按照转化，或者点击竞价。这样做的好处是可以让广告主提供更多的真实数据。按照CPA，广告主有可能会假装转化很低。但在oCPM中这样就竞价不过别人，造成send很低，对他也是不利的。
 
-
-
+### Optimized Cost per Click in Taobao Display Advertising, KDD, 2017
+* 名词：revenue，（广告）收入，CPC，cost per click，OCPC，optimized cost per click。CPM，cost per mille，KPI，key performance indicators，ROI，return of investment,CTR，click-through rate，CVR，conversion rate，small and mediumsized
+advertisers 
+* 阿里的文章，OCPC的含义是，按照点击收钱，但是按照user experience，platform revenue以及ROI的综合最优来竞价。
+* 首先把ROI作为一个可行域的边界，对于广告主来说，他们不希望实际的ROI小与预期的ROI。然后在此基础上变动出价，最大化广告收益和广告主收益的和
 
 
 
