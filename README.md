@@ -26,6 +26,11 @@
 ### [How does Facebook Bidding Work?](https://bn.co/how-does-facebook-ocpm-bidding-work/)
 * oCPM意为按照展示收钱，但是按照转化，或者点击竞价。这样做的好处是可以让广告主提供更多的真实数据。按照CPA，广告主有可能会假装转化很低。但在oCPM中这样就竞价不过别人，造成send很低，对他也是不利的。
 
+### Performance-based Pricing Models in Online Advertising: Cost per Click versus Cost per Action, 2013
+* 广告主有几点可以提升转化率的方法，1.加快网速，让用户更快看到落地页；2.落地页制作的好一点；3.制作个性化的落地页
+* 对于平台，提高转化率的方法是更精准的定向，投放的对象就是很有可能会转化的人。
+* 在CPC体系中，广告主要尽力来优化转化率，而优化转化率并不能给平台带来更多收益。
+
 ### Optimized Cost per Click in Taobao Display Advertising, KDD, 2017
 * 名词：revenue，（广告）收入，CPC，cost per click，OCPC，optimized cost per click。CPM，cost per mille，KPI，key performance indicators，ROI，return of investment,CTR，click-through rate，CVR，conversion rate，small and mediumsized
 advertisers 
