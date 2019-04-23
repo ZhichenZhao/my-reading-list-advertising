@@ -48,6 +48,8 @@ advertisers
 * 如果只有一个slot，那么GSP和VCG是等价的。VCG的每一个出价的计算方法是因为有了它，让后面的广告损失了多少，就是他应该出的价格。一般来说，VCG要比GSP在平台上收入高，不过GSP更容易向广告主解释，因此更实用一些。
 
 
-
+## Embedding
+### Billion-scale Commodity Embedding for E-commerce Recommendation in Alibaba，KDD，2018
+* 用word2vec的方法在推荐商品的时候输出每个item的embedding，然后在空间中就可以描述他们的接近关系。
 
 
