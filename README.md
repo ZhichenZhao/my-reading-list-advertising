@@ -25,6 +25,10 @@
 * WSDM这个会议，在IR（Information Retrieval）领域，这个会议的质量不错，据说仅次于WWW与SIGIR，里面有很多工业界的文章。
 * 也是利用了分层的结构，但是对于每个层级的预估CTR，合并的时候用到了FM，显式的引入了特征之间的交互，比逻辑回归效果要好。
 
+### Image Matters: Visually modeling user behaviors using Advanced Model Server，CIKM，2018
+* ctr预估模型在线上都是使用id特征的，这篇文章在两个地方引入dense的图像特征，一个是广告本身的图片，一个是用户所看过的历史图片
+* 除了分布式的parameter server，本文以查库的方式简化图像特征的训练，即先查出图像的特征（比如4096维），然后接几层embedding再训练。
+
 ## CPC/CPM/CPA/oCPC/oCPM
 ### [How does Facebook Bidding Work?](https://bn.co/how-does-facebook-ocpm-bidding-work/)
 * oCPM意为按照展示收钱，但是按照转化，或者点击竞价。这样做的好处是可以让广告主提供更多的真实数据。按照CPA，广告主有可能会假装转化很低。但在oCPM中这样就竞价不过别人，造成send很低，对他也是不利的。
