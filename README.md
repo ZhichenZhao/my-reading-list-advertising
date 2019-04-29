@@ -14,6 +14,10 @@
 * 文章中提出了一种"Bid Star Tree"的方法。具体做法是，对每一个特征加入一个新的值"*"，这个值用语匹配所有数据，如果一个维度的某个值下的数据比较少，直接聚集到"*"这个值上。这样就可以解决数据稀疏性的问题。
 
 ## CTR/CVR Estimation
+### Predicting Clicks: Estimating the Click-Through Rate for New Ads，WWW，2007
+* 比较早期的一篇文章，目的是为了解决新广告没有办法预测点击率的问题。提出了一些特征，从侧面可以估计该搜索广告的ctr
+* 手工设计的特征包括，同个bid下其他广告的ctr，相关搜索的广告的ctr（用类似编辑距离的做法做了加权）。另外还有这个广告本身能提出来的一些特征，包括appearance（标题词的个数，$符号有多少），attention（有没有buy，join等词），reputation（是不是.com结尾，看起来权威），landing page（有没有flash动画）等等。
+
 ### Estimating Conversion Rate in Display Advertising from Past Performance Data， KDD，2012
 * 用用户数据来估计某个商品的转化率有最简单的最大似然估计方法，首先找到该用户的聚类，也就是“这一类用户”，然后直接统计该商品在这一类用户上历史上的转化率，得到转化率的估计。
 * 要用上面的办法来估计CVR，第一个要面对的问题就是如何解决稀疏性，因为转化率本身是非常低的。在本文中作者对ad，user，publisher均作了分层，然后叶子节点会向根节点累积，这样就总有一层的转化率数字合理了。接下来，作者将所有层的结果使用逻辑回归合并输出。
